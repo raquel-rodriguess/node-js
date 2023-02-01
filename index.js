@@ -40,7 +40,10 @@ mongoose.connect(
 .then(() =>{    //usado quando der certo e exibi uma mensagem
     console.log('conectado ao MogoDB')
     app.listen(3000) // disponebeliza para o navegador ver o express( esculta uma porta)
-})
+     
+}
+)
+
 .catch((err) =>console.log("erro"))
 
 process.setMaxListeners(Infinity)
