@@ -27,7 +27,6 @@ app.get('/',(req, res) => {
 })
 // Serve para o express ler a requisicao e que posso enviar uma resposta
 // req, res pode ser inseridos numa função anonima
-
 //entregar uma porta
 mongoose.set("strictQuery",
 true); 
