@@ -31,6 +31,7 @@ app.get('/',(req, res) => {
 mongoose.set("strictQuery",
 true); 
 
+
 const DB_USER = "raquel"
 const DB_SENHA = encodeURIComponent("n78tCqDiYXPtDYF3S")
 mongoose.connect(
@@ -40,7 +41,6 @@ mongoose.connect(
 .then(() =>{    //usado quando der certo e exibi uma mensagem
     console.log('conectado ao MogoDB')
     app.listen(3000) // disponebeliza para o navegador ver o express( esculta uma porta)
-     
 }
 )
 
