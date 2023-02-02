@@ -20,6 +20,7 @@ app.use(express.json())  // função adiciona um novo middleware ao aplicativo.
 
 //rota inicial /endpoint
 app.get('/',(req, res) => {
+
     
     res.json({message:' oi express' })// resposta para "/" irá ser um json: "oi express"; parametro: message
 
